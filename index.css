@@ -1,0 +1,244 @@
+
+  .container {
+    display: flex;
+    background-color: #444054;
+    font-family: 'Courgette', cursive;
+  }
+
+  /* Style for the first inner div */
+  .header {
+    height: 110px;
+    width: 600px;
+  }
+
+  /* Style for the college name */
+  .college-name {
+    width: 500px;
+    height: 40px;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    color: #D0CDD7; /* Example font size */
+  }
+
+  /* Style for the college location */
+  .college-location {
+    width: 500px;
+    height: 40px;
+    text-align: center;
+    padding: 5px;
+    font-size: 15px; 
+    color: #D0CDD7;/* Example font size */
+  }
+
+  /* Style for the menu table */
+  #menu {
+    margin-top: 15px; /* Example margin */
+  }
+
+  /* Style for the table headers */
+  th {
+    width: 210px;
+    height: 50px;
+    text-align: center;
+    background-color: #ACB0BD; /* Example background color */
+  }
+
+  /* Style for the links inside table headers */
+  th a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #333; /* Example link color /////////////////////////////////////////////*/
+    display: block;
+    padding: 10px;
+  }
+
+  #menu tr th a:hover
+  {
+    color: #2F243A;
+    font-size: 20px ;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+
+
+ /* Apply styles to the marquee */
+ #marquee {
+  width: 1225px;
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: 2F243A;
+  padding: 10px;
+  color: #D0CDD7;
+}
+
+  #AboutText {
+    background-color: #2F243A;
+    color: #D0CDD7;
+    text-align: center;
+    padding: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Style for container */
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+  
+}
+
+/* Style for sections */
+.section {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ACB0BD;
+  color: #2F243A;
+}
+
+/* Style for headings */
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Style for paragraphs */
+p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+/* Apply styles to the wrapper */
+#wrapper {
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 20px;
+  background-color: #444054;
+ color: #D0CDD7;
+}
+
+/* Apply styles to the left section */
+#left {
+  flex: 1;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+  text-align: center;
+  animation: marquee-scroll2 10s linear infinite; /* Adjust duration as needed */
+  padding: 10px; /* Optional: Add padding to the text */
+  overflow: hidden; /* Hide overflowing content */
+
+}
+
+/* Apply styles to the right section */
+#right {
+  flex: 1;
+  padding: 10px;
+}
+
+#right ul {
+ text-align: center;
+}
+
+/* Style headings */
+h2 {
+  color: #333;
+}
+
+/* Style the lists */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style list items */
+li {
+  margin-bottom: 10px;
+}
+
+/* Style links */
+a {
+  text-decoration: none;
+  color: #0077b6;
+}
+
+/* Hover effect for links */
+a:hover {
+  text-decoration: underline;
+}
+
+
+/* Style for the container */
+.info {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Style for the individual sections */
+.END {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  background-color: #ACB0BD;
+  color: #2F243A;
+}
+
+/* Style for headings */
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center
+}
+
+/* Style for paragraphs */
+p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+/* Style for contact information */
+.END .info div {
+  font-size: 16px;
+  color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
